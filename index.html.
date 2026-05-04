@@ -2,18 +2,51 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>люблю тебя </title>
+    <title>Для тебя</title>
     <style>
-        body { font-family: sans-serif; text-align: center; background: #f0f8ff; padding-top: 50px; }
-        h1 { color: #ff4500; font-size: 50px; }
-        .cake { font-size: 100px; }
-        p { font-size: 20px; color: #333; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            background: #fff0f5; /* Нежно-розовый фон */
+            padding-top: 80px;
+            color: #4a4a4a;
+        }
+        h1 { 
+            color: #d02090; 
+            font-size: 60px; 
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .heart { 
+            font-size: 120px; 
+            animation: beat 1s infinite alternate; /* Сердечко будет «биться» */
+            margin: 30px 0;
+        }
+        @keyframes beat {
+            to { transform: scale(1.1); }
+        }
+        .message { 
+            font-size: 24px; 
+            max-width: 600px; 
+            margin: 0 auto; 
+            line-height: 1.6;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        .decor { font-size: 30px; margin-top: 40px; }
     </style>
 </head>
 <body>
-    <h1>люблю тебя 🎂</h1>
-    <div class="cake">🎈🎁</div>
-    <p>Тут текст твоего поздравления.</p>
-    <p>ты мой единсвтвенный и неповторимый</p>
+    <h1>Люблю тебя </h1>
+    
+    <div class="heart">💖</div>
+    
+    <div class="message">
+        Ты самый важный и единственный человек в моей жизни, я хочу провести вместе с тобой всю свою жизнь.
+    </div>
+    
+    <div class="decor">✨🌸✨</div>
 </body>
 </html>
