@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>люблю тебя </title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #f0f8ff; padding-top: 50px; }
+        h1 { color: #ff4500; font-size: 50px; }
+        .cake { font-size: 100px; }
+        p { font-size: 20px; color: #333; }
+    </style>
+</head>
+<body>
+    <h1>люблю тебя 🎂</h1>
+    <div class="cake">🎈🎁</div>
+    <p>Тут текст твоего поздравления.</p>
+    <p>ты мой единсвтвенный и неповторимый</p>
+</body>
+</html>
